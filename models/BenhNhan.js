@@ -17,8 +17,8 @@ export class BenhNhan {
         let contentHTML = 
         `
             <tr>
-                <td>${this.ten}</td>
                 <td>${this.ho}</td>
+                <td>${this.ten}</td>
                 <td>${this.email}</td>
                 <td>${this.soDienThoai}</td>
                 <td>${this.ngay}/${this.thang}/${this.nam}</td>
